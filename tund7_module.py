@@ -107,4 +107,17 @@ def bank(a:float, years:int):
 
     return a
 
+
+
 #6
+def is_prime(arg:int) -> bool:
+    if arg <= 1:
+        return False
+    for i in range(2, int(sqrt(arg)) + 1):
+        if arg % i == 0:
+            return False
+    return True
+
+
+
+#

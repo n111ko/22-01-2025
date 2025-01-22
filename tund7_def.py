@@ -51,10 +51,10 @@ from tund7_module import *
 
 ##### Ülesanne 4 #####
 
-kuu = int(input("Sisestage kuu number: "))
+# kuu = int(input("Sisestage kuu number: "))
 
-vastus = season(kuu)
-print(vastus)
+# vastus = season(kuu)
+# print(vastus)
 
 ######################
 
@@ -67,5 +67,16 @@ print(vastus)
 
 # vastus = bank(eur, aasta)
 # print(round(vastus, 2))
+
+######################
+
+
+
+##### Ülesanne 6 #####
+
+# arv =int(input("Sisestage arv: "))
+
+# vastus = is_prime(arv)
+# print(vastus)
 
 ######################
