@@ -137,5 +137,3 @@ def date(p, k, a):
     :param int a: aasta
 
     """
-
-    days_in_month = calendar.monthrange(a, k)
