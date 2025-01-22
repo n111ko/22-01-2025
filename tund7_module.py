@@ -1,3 +1,5 @@
+from datetime import *
+from calendar import *
 from math import *
 
 
@@ -111,6 +113,12 @@ def bank(a:float, years:int):
 
 #6
 def is_prime(arg:int) -> bool:
+    """
+
+    :param int arg: argument
+
+    """
+
     if arg <= 1:
         return False
     for i in range(2, int(sqrt(arg)) + 1):
@@ -120,4 +128,14 @@ def is_prime(arg:int) -> bool:
 
 
 
-#
+#7
+def date(p, k, a):
+    """
+
+    :param int p: päev
+    :param int k: kuu
+    :param int a: aasta
+
+    """
+
+    days_in_month = calendar.monthrange(a, k)

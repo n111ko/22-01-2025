@@ -1,3 +1,5 @@
+from datetime import *
+from calendar import *
 from tund7_module import *
 
 ######################
@@ -74,9 +76,21 @@ from tund7_module import *
 
 ##### Ülesanne 6 #####
 
-# arv =int(input("Sisestage arv: "))
+# arv = int(input("Sisestage arv: "))
 
 # vastus = is_prime(arv)
 # print(vastus)
+
+######################
+
+
+##### Ülesanne 7 #####
+
+paev = int(input("Sisestage päev: "))
+kuu = int(input("Sisestage kuu: "))
+aasta = int(input("Sisestage aasta: "))
+
+vastus = date(paev, kuu, aasta)
+print(vastus)
 
 ######################
