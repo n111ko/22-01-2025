@@ -4,26 +4,25 @@ from tund7_module import *
 
 ######################
 
-# a = int(input("Sisestage arv1: "))
-# b = int(input("Sisestage arv2: "))
-# c = input("Sisestage arv3: ")
+a = int(input("Sisestage arv1: "))
+b = int(input("Sisestage arv2: "))
+c = input("Sisestage arv3: ")
 
-# vastus = summa3(a, b, int(c))
-# print(vastus)
+vastus = summa3(a, b, int(c))
+print(vastus)
 
 ######################
 
 
 
-
 ##### Ülesanne 1 #####
 
-# k1 = float(input("Sisestage esimene arv: "))
-# k2 = float(input("Sisestage teine arv: "))
-# k3 = str(input("Sisestage argument: "))
+k1 = float(input("Sisestage esimene arv: "))
+k2 = float(input("Sisestage teine arv: "))
+k3 = str(input("Sisestage argument: "))
 
-# vastus = arithmetic(k1, k2, k3)
-# print(round(vastus, 2))
+vastus = arithmetic(k1, k2, k3)
+print(round(vastus, 2))
 
 ######################
 
@@ -31,10 +30,10 @@ from tund7_module import *
 
 ##### Ülesanne 2 #####
 
-# year = int(input("Sisestage aasta: "))
+year = int(input("Sisestage aasta: "))
 
-# vastus = is_year_leap(year)
-# print(vastus)
+vastus = is_year_leap(year)
+print(vastus)
 
 ######################
 
@@ -42,10 +41,10 @@ from tund7_module import *
 
 ##### Ülesanne 3 #####
 
-# k = float(input("Sisestage külje pikkus: "))
+k = float(input("Sisestage külje pikkus: "))
 
-# vastus = square(k)
-# print(vastus)
+vastus = square(k)
+print(vastus)
 
 ######################
 
@@ -53,10 +52,10 @@ from tund7_module import *
 
 ##### Ülesanne 4 #####
 
-# kuu = int(input("Sisestage kuu number: "))
+kuu = int(input("Sisestage kuu number: "))
 
-# vastus = season(kuu)
-# print(vastus)
+vastus = season(kuu)
+print(vastus)
 
 ######################
 
@@ -64,11 +63,11 @@ from tund7_module import *
 
 ##### Ülesanne 5 #####
 
-# eur = float(input("Sisestage mitu euro: "))
-# aasta = int(input("Sisestage aasta: "))
+eur = float(input("Sisestage mitu euro: "))
+aasta = int(input("Sisestage aasta: "))
 
-# vastus = bank(eur, aasta)
-# print(round(vastus, 2))
+vastus = bank(eur, aasta)
+print(round(vastus, 2))
 
 ######################
 
@@ -76,10 +75,10 @@ from tund7_module import *
 
 ##### Ülesanne 6 #####
 
-# arv = int(input("Sisestage arv: "))
+arv = int(input("Sisestage arv: "))
 
-# vastus = is_prime(arv)
-# print(vastus)
+vastus = is_prime(arv)
+print(vastus)
 
 ######################
 
