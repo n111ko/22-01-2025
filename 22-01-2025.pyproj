@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a9b4fbd5-d707-4d0b-ac79-cd05771e034c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_22_01_2025.py</StartupFile>
+    <StartupFile>tund7_def.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_22_01_2025.py" />
+    <Compile Include="tund7_module.py" />
+    <Compile Include="tund7_def.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
